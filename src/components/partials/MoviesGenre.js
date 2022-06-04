@@ -26,7 +26,7 @@ function MoviesGenre() {
   const context = useContext(GenreContext)
   useEffect(() => {
     setLoading(true)
-    axios.get('discover/movie/', {
+    axios.get('https://api.themoviedb.org/3/discover/movie/', {
       params: {
         with_genres: genreId
       }
