@@ -18,7 +18,7 @@ function Main() {
   return (
     <MainWrapper>
       <Routes>
-        <Route path="/react-movies/home" element={<HomePage/>}/>
+        <Route path="/react-movies/" element={<HomePage/>}/>
         <Route path="/react-movies/genres" element={<GenresPage/>}>
           <Route index element={<MoviesGenre />} />
           <Route path=":genreId" element={<MoviesGenre />} />

@@ -1,6 +1,6 @@
 {
   "name": "react-movies",
-  "homepage": "http://chazn3x.github.io/react-movies/home",
+  "homepage": "http://chazn3x.github.io/react-movies",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -64,7 +64,7 @@ function Header() {
       <LeftHeader>
         <Title><Blue>Altruistic</Blue> Movies</Title>
         <nav>
-          <StyledNavLink to='/react-movies/home' title="Home">Home</StyledNavLink>
+          <StyledNavLink to='/react-movies/' title="Home">Home</StyledNavLink>
           <StyledNavLink to='/react-movies/genres' title="Genres">Genres</StyledNavLink>
           <StyledNavLink to='/react-movies/saved' title="My List">My List</StyledNavLink>
           {location.pathname.includes('search') &&
