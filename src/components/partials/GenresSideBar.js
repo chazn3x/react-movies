@@ -34,7 +34,7 @@ function GenresSideBar() {
       <ul>
         {context.genres.map(genre => (
           <li key={genre.id}>
-            <StyledNavLink to={`/genres/${genre.id}`} onClick={() => context.setGenre(genre.name)}>
+            <StyledNavLink to={`/react-movies/genres/${genre.id}`} onClick={() => context.setGenre(genre.name)}>
               {genre.name}
             </StyledNavLink>
           </li>
