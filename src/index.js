@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom'
 import './index.css'
 
 // Axios defaults
-axios.defaults.baseURL = "https://api.themoviedb.org/3"
+axios.defaults.baseURL = "api.themoviedb.org/3"
 axios.defaults.params = {
   api_key: "3390a8a14e621ee87b8e65a286d5c250",
   include_adult: false
