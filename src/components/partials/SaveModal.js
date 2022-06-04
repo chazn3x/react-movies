@@ -78,7 +78,7 @@ function SaveModal({title, close}) {
           <p>Movie saved in your list</p>
         </ModalBody>
         <ModalFooter>
-          <SavedLink to="/saved" title="My List">Go to my list</SavedLink>
+          <SavedLink to="/react-movies/saved" title="My List">Go to my list</SavedLink>
         </ModalFooter>
       </Window>
     </Wrapper>

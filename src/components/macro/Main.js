@@ -18,18 +18,18 @@ function Main() {
   return (
     <MainWrapper>
       <Routes>
-        <Route path="/" element={<HomePage/>}/>
-        <Route path="/genres" element={<GenresPage/>}>
+        <Route path="/react-movies/home" element={<HomePage/>}/>
+        <Route path="/react-movies/genres" element={<GenresPage/>}>
           <Route index element={<MoviesGenre />} />
           <Route path=":genreId" element={<MoviesGenre />} />
         </Route>
-        <Route path="/movie">
+        <Route path="/react-movies/movie">
           <Route index element={<PageNotFound/>} />
           <Route path=":movieId" element={<MoviePage/>} />
         </Route>
-        <Route path="/saved" element={<SavedPage/>} />
-        <Route path="/search" element={<SearchPage/>} />
-        <Route path="*" element={<PageNotFound/>} />
+        <Route path="/react-movies/saved" element={<SavedPage/>} />
+        <Route path="/react-movies/search" element={<SearchPage/>} />
+        <Route path="/react-movies/*" element={<PageNotFound/>} />
       </Routes>
     </MainWrapper>
   )

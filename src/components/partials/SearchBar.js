@@ -32,7 +32,7 @@ function SearchBar() {
     e.preventDefault()
     if (searchQuery.query) {
       navigate({
-        pathname: '/search',
+        pathname: '/react-movies/search',
         search: `?${createSearchParams(searchQuery)}`
       })
       setSearchQuery({query: ''})

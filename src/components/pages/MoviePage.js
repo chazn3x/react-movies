@@ -168,7 +168,7 @@ function MoviePage() {
                 <ul>
                   {movie.genres.map(genre => (
                     <li key={genre.id}>
-                      <StyledLink to={`/genres/${genre.id}`}>{genre.name}</StyledLink>
+                      <StyledLink to={`/react-movies/genres/${genre.id}`}>{genre.name}</StyledLink>
                     </li>
                   ))}
                 </ul>

@@ -53,7 +53,7 @@ const Layover = styled.div`
 // React component
 function MovieCard({movie}) {
   return (movie.poster_path &&
-    <LinkStyled to={`/movie/${movie.id}`} title={movie.title}>
+    <LinkStyled to={`/react-movies/movie/${movie.id}`} title={movie.title}>
       <Logo>A</Logo>
       <CardImage src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`}/>
       <Layover/>
